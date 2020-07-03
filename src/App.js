@@ -8,6 +8,7 @@ import Stories from "./components/stories.component"
 import Book from "./components/book.component"
 import Footer from "./components/footer.component"
 import Navigation from './components/navigation.component';
+import Popup from "./components/popup.component";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Stories />
       <Book />
       <Footer />
+      <Popup />
     </div>
   );
 }
