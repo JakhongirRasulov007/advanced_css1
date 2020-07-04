@@ -38,7 +38,14 @@
 
     &:not(:last-child) {
         margin-bottom: $gutter-vertical;
+        @include respond(tab-port){
+            margin-bottom:5rem !important;
+          }
     }
+
+    @include respond(tab-port){
+        max-width: 50rem;
+      }
     
     @include clearfix;
 
@@ -47,7 +54,19 @@
         // background-color: orange;
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
+            @include respond(tab-port){
+                margin-right: 0 !important;
+                margin-bottom: 4rem !important;
+
+              }
         }
+
+        
+    
+          @include respond(tab-port){
+            width: 100% !important;
+          }
+          
         
     }
 

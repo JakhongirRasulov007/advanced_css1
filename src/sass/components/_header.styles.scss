@@ -43,33 +43,6 @@ Dark green: #
     }
 }
 
-
-.heading-primary{
-
-    &--main{
-        display: block;
-        font-size: 6rem;
-        font-weight: 400;
-        letter-spacing: 3.5rem;
-        animation-name: moveInLeft;
-        animation-duration: 2s;
-        animation-delay: 2s;
-        animation-timing-function: ease-out;
-    }
-    &--sub{
-        display: block;
-        font-size: 2rem;
-        font-weight: 700;
-        letter-spacing: 1.8rem;
-        animation-name: moveInRight;
-        animation-duration: 1s;
-        animation-delay: 2s;
-        animation-timing-function: ease-out;
-        margin-bottom: 2rem;
-    
-    }
-}
-
 .btn{
     &,
     &:link,
