@@ -30,9 +30,22 @@ body {
   
   html{
       font-size: 62.5%;
-      @include respond(phone){
-        font-size: 25%;
+
+      @include respond(big-desktop){
+        font-size: 75%;
       }
+    
+      @include respond(tab-land){
+        font-size: 62.5%;
+      }
+
+      @include respond(tab-port){
+        font-size: 43.75%;
+      }
+      @include respond(phone){
+        font-size: 31.25%;
+      }
+     
   
   }
   
